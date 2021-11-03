@@ -1,10 +1,22 @@
 h1 {
   color: white;
-  font-family: "Playfair Display", serif;
   font-weight: bold;
 }
 
 p {
-  font-family: "Poppins", sans-serif;
-  font-weight: bold;
+  font-weight: regular;
+}
+
+body {
+  background-color: #dcd2f5;
+  font-family: "EB Garamond", serif;
+}
+
+.hero {
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(25px);
+  border-radius: 12px;
+  padding: 170px 50px;
+  margin: 10px 10px;
 }
