@@ -70,6 +70,12 @@ body {
   margin: 20px;
 }
 
+.icon-links i {
+  color: #fff;
+  font-size: 30px;
+  padding: 20px;
+}
+
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;
