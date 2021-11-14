@@ -1,12 +1,13 @@
 :root {
   --brand-color: #dcd2f5;
+  --secondary-color: #fff;
   --font-family: "EB Garamond", serif;
 }
 
 h1 {
   font-size: 70px;
   line-height: 1;
-  color: white;
+  color: var(--secondary-color);
   font-weight: bolder;
 }
 
@@ -35,9 +36,9 @@ body {
 
 .btn-branding {
   background: var(--brand-color);
-  border-color: #fff;
+  border-color: var(--secondary-color);
   border-radius: 7px;
-  color: #fff;
+  color: var(--secondary-color);
   padding: 13px 30px;
   margin-top: 20px;
 }
@@ -54,8 +55,8 @@ body {
 
 .btn-work {
   background-color: var(--brand-color);
-  border-color: #fff;
-  color: #fff;
+  border-color: var(--secondary-color);
+  color: var(--secondary-color);
   border-radius: 7px;
   padding: 13px 30px;
   margin: 20px;
@@ -63,17 +64,39 @@ body {
 
 .btn-contact {
   background-color: var(--brand-color);
-  border-color: #fff;
-  color: #fff;
+  border-color: var(--secondary-color);
+  color: var(--secondary-color);
   border-radius: 7px;
   padding: 13px 30px;
   margin: 20px;
 }
 
 .icon-links i {
-  color: #fff;
+  color: var(--secondary-color);
   font-size: 30px;
   padding: 20px;
+}
+
+.about-section {
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(25px);
+  max-width: 600px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+}
+
+#about-description {
+  padding: 20px 0 20px 40px;
+}
+.profile-image {
+  max-width: 250px;
+  display: block;
+  margin: 10px;
+  padding: 12px;
+  border-radius: 17px;
 }
 
 @media (max-width: 576px) {
