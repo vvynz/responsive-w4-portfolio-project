@@ -93,10 +93,6 @@ body {
 }
 .profile-image {
   max-width: 250px;
-  display: block;
-  margin: 10px;
-  padding: 12px;
-  border-radius: 17px;
 }
 
 @media (max-width: 576px) {
