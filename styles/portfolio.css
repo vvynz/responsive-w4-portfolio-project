@@ -136,7 +136,7 @@ body {
 .footer .email-link {
   color: var(--secondary-color);
   text-decoration: none;
-  font-size: 24px;
+  font-size: 28px;
 }
 .contact-page-body {
   background: var(--secondary-color);
@@ -178,6 +178,15 @@ body {
   margin: 20px;
 }
 
+.contact-page-footer .email-link {
+  color: darkgray;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.contact-page-footer .social-links a {
+  color: var(--brand-color);
+}
 @media (max-width: 576px) {
   h1 {
     font-size: 48px;
@@ -185,5 +194,9 @@ body {
 
   h2 {
     font-size: 32px;
+  }
+
+  .about-section {
+    max-width: 550px;
   }
 }
