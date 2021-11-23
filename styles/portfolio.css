@@ -1,6 +1,7 @@
 :root {
   --brand-color: #dcd2f5;
   --secondary-color: #fff;
+  --link-color: rgb(201, 186, 242);
   --font-family: "EB Garamond", serif;
 }
 
@@ -43,13 +44,14 @@ body {
   margin-top: 20px;
 }
 
-#header-nav a {
-  font-size: 20px;
+.homepage-hero a:hover {
+  background: var(--link-color);
+  color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
 }
 
-.navigation-links {
-  display: flex;
-  justify-content: center;
+#header-nav a {
+  font-size: 20px;
 }
 
 .btn-work {
@@ -70,10 +72,21 @@ body {
   margin: 20px;
 }
 
-.icon-links i {
+.navigation-links a:hover {
+  background: var(--link-color);
+  color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
+}
+
+.social-links a {
   color: var(--secondary-color);
   font-size: 30px;
   padding: 20px;
+}
+
+.social-links a:hover {
+  color: var(--link-color);
+  transition: all 100ms ease-in-out;
 }
 
 .about-section {
@@ -98,17 +111,40 @@ body {
   top: 5px;
 }
 
+.project-title h2 {
+  margin: auto 20px;
+}
 .project-cards {
   background: rgba(255, 255, 255, 0.5);
 }
 
+.btn-primary {
+  background-color: var(--brand-color);
+  border-color: var(--secondary-color);
+  color: var(--secondary-color);
+  border-radius: 7px;
+  padding: 13px 30px;
+  margin: 20px;
+}
+
+.project-cards a:hover {
+  background: var(--link-color);
+  border-color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
+}
+
+.footer .email-link {
+  color: var(--secondary-color);
+  text-decoration: none;
+  font-size: 24px;
+}
 .contact-page-body {
-  background: #fff;
+  background: var(--secondary-color);
 }
 
 .contact-title h1 {
   color: darkgray;
-  margin-left: 65px;
+  margin-left: 130px;
 }
 
 .contact-box {
