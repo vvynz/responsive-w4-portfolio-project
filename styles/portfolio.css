@@ -208,6 +208,15 @@ body {
   }
 
   .about-description h2 {
-    font-size: 22px;
+    font-size: 12px;
+  }
+
+  .about-description p {
+    font-size: 14px;
+    line-height: 1;
+  }
+
+  .profile-image {
+    width: 200px;
   }
 }
